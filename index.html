@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\songslist.css">
+    <link rel="stylesheet" href="css\theme.css">
+    <link rel="stylesheet" href="css\profile.css">
+</head>
+
+<body class="body">
+    <main>
+        <div class="login_form">
+            <form class="login_form_cont">
+                <h1 id="login_text">Log in</h1>
+                <div><input type="text" placeholder="Username" required class="login_input"></div>
+                <div><input type="password" placeholder="your Pasword" class="login_input"></div>
+                <div><input type="submit" value="Login" class="login_input" id="login_but"></div>
+            </form>
+        </div>
+        <div id="login_form">
+            <h1 id="sign_text">Sign in</h1>
+            <form id="form_id">
+                <div><input type="text" placeholder="Name" required></div>
+                <div><input type="text" placeholder="UserName" required></div>
+                <div><input type="email" placeholder="example@gmail.com" required></div>
+                <fieldset id="fieldset-id">
+                    <legend>Gender</legend><input type="radio" name="Gender" value="Male" class="gen"> Male <input
+                        type="radio" name="Gender" value="Female" class="gen"> Female
+                </fieldset>
+                <div>
+                    <input type="password" placeholder="Strong Pasword">
+                </div>
+                <div><input type="reset" value="Reset"></div>
+                <div><input type="submit" value="Submit"></div>
+            </form>
+
+
+        </div>
+        <div class="section">
+            <div class="section_left">
+                <div class="section_left_upper">
+                    <div class="header-logo">
+                        <span> <img src="img\header_logo.png">
+                            <strong id="logo_brand_name"><b><sup><span class="brand_name">M</span><span
+                                            class="brand_name">u</span><span class="brand_name">s</span><span
+                                            class="brand_name">i</span><span class="brand_name">c</span><span
+                                            class="brand_name">s</span></sup></b></strong>
+                        </span>
+
+                        <div>
+                            <ul class="left_upper_nav">
+                                <li><a href="#"><img src="img\home.png" alt=""></a><span>Home</span></li>
+
+                                <li><a href="#"><img src="img\search.png" alt=""></a><span>search</span></li>
+
+                                <li><strong class="themes">
+                                        <img src="img\brightness.png">
+                                    </strong><span>Theme</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="section_left_lower">
+                    <div class="library">
+                        <li><img src="img\playlist.png"></li>
+                        <li>
+                            <h3>Your Library</h3>
+                        </li>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="section_right">
+                <header class="head">
+                    <div id="burgger">
+                        <div class="lines"></div>
+                        <div class="lines"></div>
+                        <div class="lines"></div>
+                    </div>
+                    <div class="head-left">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="head-right">
+                        <ul class="nav">
+                            <li id="Sign"><button>Sign in</button></li>
+                            <li id="log"><button>Log in</button></li>
+                        </ul>
+                    </div>
+                </header>
+                <div class="playlist_container">
+
+
+
+                    <div class="songslist3"></div>
+                    <h2 id="playlist_info">Trending prevSong</h2>
+                    <div id="songList" class="song-list"></div>
+
+                    <div class="player">
+                        <div class="player-info">
+                            <div> <img id="songImg" src="" alt="Cover Image" /></div>
+                            <div> <h3 id="songName">Play Song</h3>
+                            <p id="songArtist">-</p></div>
+                           
+                           
+                        </div>
+
+
+                        <div class="controls">
+                            <button onclick="prevSong()">⏮️</button>
+                            <button onclick="togglePlay()">▶️</button>
+                            <button onclick="nextSong()">⏭️</button>
+                        </div>
+
+                        <audio id="audioPlayer" hidden></audio>
+                    </div>
+
+                    <div class="songslist4"></div>
+
+                    <div class="songslist5"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <script src="js\sricpt.js"></script>
+    <script src="js\songslist.js"></script>
+    <script src="js\theme.js"></script>
+    <script src="js\profile.js"></script>
+    <script src="js\songs.js"></script>
+</body>
+
+</html>

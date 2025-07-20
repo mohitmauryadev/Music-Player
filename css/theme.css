@@ -1,0 +1,15 @@
+.themes{
+    cursor: pointer;
+}
+
+ .section_right.changed{
+    background-color: rgb(183, 185, 185);
+    color: black;
+}
+
+ .body.changed{
+    background-color: rgb(183, 185, 185);
+    color: rgb(255, 254, 254);
+}
+
+

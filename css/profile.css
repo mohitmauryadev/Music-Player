@@ -1,0 +1,167 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#login_form {
+   border-radius: 8px;
+   border: 2px solid white;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: none;
+    padding-bottom: 30px;
+}
+
+#sign_text{
+  padding: 12px;  
+}
+
+
+#form_id {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+#fieldset-id {
+    display: flex;
+    flex-direction: row;
+}
+
+
+input {
+    border-radius: 3px;
+    width: 95%;
+    padding: 5px;
+}
+
+input[type="reset"] {
+    color: red;
+    border: 2px solid red;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: green;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="reset"]:hover, input[type="submit"]:hover{
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+@media screen and (max-width:400px) {
+    #login_form {
+        width: 250px;
+    }
+
+    input {
+        width: 230px;
+    }
+
+    #fieldset-id {
+        width: 230px;
+    }
+
+    input[type="radio"] {
+        width: 45%;
+    }
+}
+
+#login_form.hidden{
+    display: flex;
+    display: block;
+    position: fixed;
+    top: 86px;
+    left: 1%;
+    right: 1%;
+    
+    
+}
+
+.section_left.left_hidden{
+    opacity: 0.07;
+}
+
+.songslist1.right_hidden{
+    opacity: 0.03;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 90px;
+    left: 1%;
+    right: 1%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+    display: none;
+}
+.login_form_cont{
+     display: flex;
+     flex-direction: column;  
+    width: 386px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    /* border: 2px solid black;; */
+}
+
+.login_input{
+    width: 376px;
+    padding: 5px;
+    border-radius: 3px;
+    padding: 12px;
+}
+#login_but{
+    padding: 12px;
+}
+
+#login_text{
+    padding: 12px;
+}
+
+@media screen and (max-width:450px) {
+   .login_form{
+    width: 95%;
+   } 
+
+   .login_form_cont{
+    width: 98%;
+   }
+   .login_input{
+    width: 200px;
+   }
+}
+.login_form.hidden_login{
+    display: flex;
+    display: block;
+    position: fixed;
+    top: 90px;
+    left: 1%;
+    right: 1%;
+    
+}
