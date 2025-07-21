@@ -34,10 +34,10 @@ li a {
 
 .section_right {
     width: 75%;
-    height: 85vh;
+    /* height: 85vh; */
     background-color: rgb(16, 15, 15);
     opacity: 1;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     display: flex;
     flex-direction: column;
 }
@@ -148,12 +148,12 @@ li a {
 }
 
 .section_left_lower {
-    margin-top: 13px;
     display: flex;
     flex-direction: column;
     gap: 13px;
     background-color: rgb(19, 19, 19);
-    margin-top: 10px;
+    border: 1px solid rgb(16, 15, 15);
+    margin-top: 0px;
     padding: 10px;
     border-radius: 6px;
     height: 100%;
@@ -206,7 +206,7 @@ li a {
         width: 100vw;
         height: 100vh;
         position: absolute;
-        top: 65px;
+        top: 75px;
     }
 }
 

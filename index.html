@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css\songslist.css">
     <link rel="stylesheet" href="css\theme.css">
     <link rel="stylesheet" href="css\profile.css">
+    <link rel="stylesheet" href="css\scrollanimation.css">
 </head>
 
 <body class="body">
@@ -112,7 +113,7 @@
 
 
                     <div class="songslist3"></div>
-                    <h2 id="playlist_info">Trending prevSong</h2>
+                    <h2 id="playlist_info">Trending Song</h2>
                     <div id="songList" class="song-list"></div>
 
                     <div class="player">
@@ -127,7 +128,7 @@
 
                         <div class="controls">
                             <button onclick="prevSong()">⏮️</button>
-                            <button onclick="togglePlay()">▶️</button>
+                            <button class="play_button_change" onclick="togglePlay()">▶️</button>
                             <button onclick="nextSong()">⏭️</button>
                         </div>
 

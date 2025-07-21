@@ -1,0 +1,28 @@
+
+/* scrollBar CSS */
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000; /* Black scrollbar */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333; /* Slightly lighter on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #1a1a1a; /* thumb color, track color */
+}
+

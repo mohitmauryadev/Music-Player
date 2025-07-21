@@ -97,7 +97,90 @@ const songs = [
     artist: "Lata Mangeshkar",
     img: "img/Zihal_e.jpg",
     src: "songs/Zihal_maski_makumbaranjis.mp3"
-  }
+  },
+
+   {
+    name: "Agar Tum Mil Jao",
+    artist: "Sreya Ghoshal",
+    img: "img/agar_tum_mil_jao.jpg",
+    src: "songs/Agar_tum_mil_javo.mp3"
+  },
+  {
+    name: "A to Z Tere Sare Yaar",
+    artist: "Baani Sandhu",
+    img: "img/a_to_z_tere_sare.jpg",
+    src: "songs/a_to_z_tere_sare_yaar.mp3"
+  },{
+    name: "Dholna Song",
+    artist: "Lata Mangeshkar",
+    img: "img/dholna_song_img.jpg",
+    src: "songs/DO_char_kadam_pe_tum.mp3"
+  },
+  {
+    name: "Jeene Laga Hu",
+    artist: "Aatif Aslam, Shreya Ghoshal",
+    img: "img/jeene_laga_hu.jpg",
+    src: "songs/jeene_laga_hu.mp3"
+  },
+   {
+    name: "Kal Ho Na Ho",
+    artist: "Sonu Nigam",
+    img: "img/kal_ho_na_ho.webp",
+    src: "songs/Kal_ho_na_ho.mp3"
+  },
+  {
+    name: "Kithe Chaliye tu Kithe Chaliye",
+    artist: "Tanishq Bagchi",
+    img: "img/kith_chaliye.jpg",
+    src: "songs/Kith_chaliye_tu_kith_chaliye.mp3"
+  },{
+    name: "Koi Sahri Babu",
+    artist: "Aasha Bhosle",
+    img: "img/koi_sahri_babu.jpg",
+    src: "songs/koi_sahri_babu.mp3"
+  },
+  {
+    name: "Le Hath Khadag Kandhe Bhala",
+    artist: "Unknown Artist",
+    img: "img/le_hath_khadag.jpg",
+    src: "songs/le_hath_khadag.mp3"
+  },
+   {
+    name: "Mai Bhola Parvat ka",
+    artist: "Hariom Dada, Shradha",
+    img: "img/mai_bhola_parvat_ka.jpg",
+    src: "songs/Mai_bhola_parvat_ka.mp3"
+  },
+  {
+    name: "Majnoo na Bane Tu Chhore ",
+    artist: "Unknown artist",
+    img: "img/majnu_na_bane_tu.jpg",
+    src: "songs/Majnu_na_bane_tu_chhore.mp3"
+  },{
+    name: "Mere Dhol Sajna ",
+    artist: "Kumar Sanu, Alka Yagnik",
+    img: "img/mere_dhol_sajna.jpg",
+    src: "songs/Mere_dhol_sagna.mp3"
+  },
+  {
+    name: "Sare Vadon Ka Bharam",
+    artist: "Alka Yagnik",
+    img: "img/sare_vadon_ka_bharam.jpg",
+    src: "songs/sare_vadon_ka_bharam.mp3"
+  },
+   {
+    name: "Teri Meri Kahani",
+    artist: "Himesh Rashamiya, Shreya Ghoshal",
+    img: "img/teri_meri_kahani.jpg",
+    src: "songs/teri_meri_kahani.mp3"
+  },
+  {
+    name: "Tum chhupa Na Sakoge",
+    artist: "Udit Narayan",
+    img: "img/tum_chhupa_na_sakoge.jpg",
+    src: "songs/tum_chhupa_na_sakogi_mai.mp3"
+  },
+   
 ];
 
 let currentIndex = 0;
@@ -152,3 +235,26 @@ songs.forEach((song, index) => {
   };
   songListDiv.appendChild(card);
 });
+
+let play_button_change = document.querySelector('.play_button_change');
+play_button_change.addEventListener('click', function(){
+  if (audio.paused){
+    play_button_change.innerHTML = '▶️';
+
+  }
+  else{
+    play_button_change.innerHTML = '⏸️';
+  }
+})
+
+
+
+
+
+
+
+
+
+
+  
+
