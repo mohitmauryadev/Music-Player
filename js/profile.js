@@ -2,7 +2,7 @@ let sign_form = document.querySelector('#login_form');
 let SignBut = document.querySelector('#Sign'); 
 let body = document.querySelector('.body');
 let left_body_section = document.querySelector('.section_left');
-let right_body_section = document.querySelector('.songslist1');
+let right_body_section = document.querySelector('.playlist_container');
 let login_form = document.querySelector('#log');
 let login_form_cont = document.querySelector('.login_form')
 function signformtoggle() {

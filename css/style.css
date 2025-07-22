@@ -164,6 +164,11 @@ li a {
     gap: 15px;
 }
 
+.footer_position{
+    position: relative;
+    bottom: 60px;
+}
+
 @media screen and (max-width:800px) {
     .section_left {
         width: 35%;
@@ -172,6 +177,11 @@ li a {
     .section_right {
         width: 65%;
     }
+  
+   .footer_position{
+    position: relative;
+    bottom: 100px;
+} 
 
 }
 
@@ -208,6 +218,11 @@ li a {
         position: absolute;
         top: 75px;
     }
+   .footer_position{
+    /* position: relative; */
+    bottom: 100px;
+} 
+
 }
 
 @media screen and (max-width:400px) {
@@ -220,4 +235,7 @@ li a {
         gap: 10px;
     }
 }
+
+
+
 

@@ -180,7 +180,41 @@ const songs = [
     img: "img/tum_chhupa_na_sakoge.jpg",
     src: "songs/tum_chhupa_na_sakogi_mai.mp3"
   },
-   
+    {
+    name: "Ham Lakh Chhupayen Pyar",
+    artist: "Lata Mangeshkar",
+    img: "img/Ham_lakh_chhpaye.jpg",
+    src: "songs/Ham_lakh_chhupaye.mp3"
+  },
+  {
+    name: "Lag Ja Gale  ",
+    artist: "Lata Mangeshkar",
+    img: "img/lag_ja_gale.jpg",
+    src: "songs/lag_ja_gale.mp3"
+  },{
+    name: "Sanam Re ",
+    artist: "Arijit Singh",
+    img: "img/sanam_re.jpg",
+    src: "songs/Sanam_re.mp3"
+  },
+  {
+    name: "Savan Ka Mahina",
+    artist: "Lata Mangeshkar",
+    img: "img/savan_ka_mahina.webp",
+    src: "songs/savan_ka_maheena.mp3"
+  },
+   {
+    name: "Tere Mere Hothon Pe",
+    artist: "Lata Mangeshkar",
+    img: "img/tere_mere_hothon_pe.jpg",
+    src: "songs/tere_mere_hotho_pe.mp3"
+  },
+  {
+    name: "Ye Mere Hamsafar",
+    artist: "Udit Narayan, Alka Yagnik",
+    img: "img/ye_mere_hamsafar.jpg",
+    src: "songs/Ye_mere_hamsafar.mp3"
+  },
 ];
 
 let currentIndex = 0;
